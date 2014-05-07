@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "backup-fetch"
   gem.homepage = "http://github.com/everm1nd/backup-fetch"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Fetch backup from S3 and load production database}
+  gem.description = %Q{This is extension for backup gem, which helps to download backuped database at developer's machines}
   gem.email = "everm1nd.mail@gmail.com"
   gem.authors = ["everm1nd"]
   # dependencies defined in Gemfile
