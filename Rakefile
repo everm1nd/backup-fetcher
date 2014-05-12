@@ -14,10 +14,10 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://guides.rubygems.org/specification-reference/ for more options
-  gem.name = "backup-fetch"
-  gem.homepage = "http://github.com/everm1nd/backup-fetch"
+  gem.name = "backup-fetcher"
+  gem.homepage = "http://github.com/everm1nd/backup-fetcher"
   gem.license = "MIT"
-  gem.summary = %Q{Fetch backup from S3 and load production database}
+  gem.summary = %Q{Fetchs backup from S3 and load production database}
   gem.description = %Q{This is extension for backup gem, which helps to download backuped database at developer's machines}
   gem.email = "everm1nd.mail@gmail.com"
   gem.authors = ["everm1nd"]
@@ -44,7 +44,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "backup-fetch #{version}"
+  rdoc.title = "backup-fetcher #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
